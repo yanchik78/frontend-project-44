@@ -1,0 +1,1 @@
+"brain-gcd"`: "bin/brain-gcd.js"`

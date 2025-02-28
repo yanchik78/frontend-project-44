@@ -27,8 +27,8 @@ const gameEven = () => {
     }
   }
 `
-  ```console.log(Congratulations, $`{userName}!)
+  ```console.log(Congratulations, $`{userName``}!``)
   console.log(You ```answered ``correctly ${correctAnswers} ``out of ${rounds} questions.)
 }
 
-gameEven()
+gameEven(`)

@@ -1,0 +1,1 @@
+"brain-prime"`: "bin/brain-prime.js"`

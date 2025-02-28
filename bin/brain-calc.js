@@ -1,0 +1,1 @@
+"brain-calc"`: "bin/brain-calc.js"`
