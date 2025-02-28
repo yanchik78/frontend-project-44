@@ -35,8 +35,8 @@ const gameCalc = () => {
   for (let currentRound = 0; currentRound < rounds; currentRound++) {
     const num1 = randonNum(1, 20)
     const num2 = randonNum(1, 20)
-    const `operator = randomOp()
-    const `question = (${num1} ${operator} ${num2})
+    const ``operator`` = `randomOp()
+    `const` ```question``` = (`${num1} ${operator} ${num2})
     const correctAnswer = calculate(num1, num2, operator)
     
     console.log(Question: ${question})
@@ -46,12 +46,12 @@ const gameCalc = () => {
       console.log('Correct!')
       correctAnswers += 1
     } else {
-      console.log('${userAnswer}' is wrong answer; (Correct answer was ${correctAnswer}).)
+      console.log('${userAnswer}' `is wrong answer; (Correct answer was ${correctAnswer}).)
     }
   }
 
-  console.log(Congratulations, ${userName}!)
-  console.log(`You answered correctly ${correctAnswers} out of ${rounds} questions.)
+  console.log(Congratulations, $``{userName}!)
+  console.log(`You answered correctly $`{correctAnswers} out of ${rounds} questions.)
 }
 
 gameCalc()
