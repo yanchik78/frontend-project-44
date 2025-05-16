@@ -1,5 +1,5 @@
-console.log('Welcome to the Brain Games!')
-import { helloUser, askName } from '../src/cli.js';
+#!/usr/bin/env node
 
-helloUser();
-const userName = askName();
+import greetUser from '../src/cli.js';
+
+greetUser();
