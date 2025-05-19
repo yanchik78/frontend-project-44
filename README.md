@@ -24,7 +24,7 @@
 
 node bin/brain-even.js
 
-[!первое видео](https://asciinema.org/a/MWqADBevsZrhvCF53DFlzhTP9)
+[![asciicast](https://asciinema.org/a/MWqADBevsZrhvCF53DFlzhTP9.svg)](https://asciinema.org/a/MWqADBevsZrhvCF53DFlzhTP9)
 
 2. Игра "Калькулятор"
 
