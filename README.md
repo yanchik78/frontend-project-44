@@ -48,4 +48,4 @@ node bin/brain-progression.js
 
 node bin/brain-prime.js
 
-[![asciicast](https://asciinema.org/a/t8RNxruSmavN7FjrzNGaSU747.gif)](https://asciinema.org/a/t8RNxruSmavN7FjrzNGaSU747)
+[![asciicast](https://asciinema.org/a/t8RNxruSmavN7FjrzNGaSU747.svg)](https://asciinema.org/a/t8RNxruSmavN7FjrzNGaSU747)
