@@ -1,19 +1,19 @@
 const isPrime = (num) => {
-  if (num < 2) return false;
+  if (num < 2) return false
   for (let i = 2; i <= Math.sqrt(num); i += 1) {
-    if (num % i === 0) return false;
+    if (num % i === 0) return false
   };
-  return true;
-};
-
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-
-const generateRound = () => {
-  const question = getRandomNumber(1, 50);
-  const answer = isPrime(question) ? 'yes' : 'no';
-  return [question, answer];
+  return true
 }
 
-export const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
-export default generateRound;
+const generateRound = () => {
+  const question = getRandomNumber(1, 50)
+  const answer = isPrime(question) ? 'yes' : 'no'
+  return [question, answer]
+}
+
+export const description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+export default generateRound
