@@ -10,4 +10,4 @@ const generateRound = () => {
 
 export const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-export default generateRound
+export default generateRound;

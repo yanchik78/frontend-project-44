@@ -4,10 +4,10 @@ const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)
 
 const calculate = (a, b, operator) => {
   switch (operator) {
-  case '+': return a + b
-  case '-': return a - b
-  case '*': return a * b
-  default: throw new Error(`Unknown operator: ${operator}`)
+    case '+': return a + b
+    case '-': return a - b
+    case '*': return a * b
+    default: throw new Error(`Unknown operator: ${operator}`)
   };
 }
 
@@ -22,4 +22,4 @@ const generateRound = () => {
 
 export const description = 'What is the result of the expression?'
 
-export default generateRound
+export default generateRound;

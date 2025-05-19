@@ -28,4 +28,4 @@ const runGame = (check, game) => {
   console.log(`Congratulations, ${name}!`)
 }
 
-export default runGame
+export default runGame;
