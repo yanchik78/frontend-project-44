@@ -5,8 +5,6 @@ const findGCD = (a, b) => {
   return findGCD(b, a % b)
 }
 
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
-
 const generateRound = () => {
   const a = getRandomNumber(1, 50)
   const b = getRandomNumber(1, 50)

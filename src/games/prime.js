@@ -8,8 +8,6 @@ const isPrime = (num) => {
   return true
 }
 
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
-
 const generateRound = () => {
   const question = getRandomNumber(1, 50)
   const answer = isPrime(question) ? 'yes' : 'no'

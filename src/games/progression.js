@@ -8,8 +8,6 @@ const generateProgression = (start, step, length) => {
   return progression
 }
 
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
-
 const generateRound = () => {
   const progressionLength = getRandomNumber(5, 10)
   const start = getRandomNumber(1, 10)
