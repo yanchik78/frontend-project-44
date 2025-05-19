@@ -1,5 +1,3 @@
-import getRandomNumber from '../utils.js'
-
 const isPrime = (num) => {
   if (num < 2) return false;
   for (let i = 2; i <= Math.sqrt(num); i += 1) {

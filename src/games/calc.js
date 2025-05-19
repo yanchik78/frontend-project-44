@@ -1,5 +1,3 @@
-import getRandomNumber from '../utils.js'
-
 const operators = ['+', '-', '*'];
 
 const calculate = (a, b, operator) => {
