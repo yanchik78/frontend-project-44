@@ -28,21 +28,24 @@ node bin/brain-even.js
 
 2. Игра "Калькулятор"
 
-$ make brain-calc
+node bin/brain-calc.js
 
-What is the result of the expression? Question: 5 + 7 Your answer: 12 Correct! Question: 10 - 4 Your answer: 6 Correct! Question: 3 * 8 Your answer: 24 Correct! Congratulations, Bob! Вторая игра
+[![asciicast](https://asciinema.org/a/vZapm3MfzB9HcgRVqOtGwfEPT.svg)](https://asciinema.org/a/vZapm3MfzB9HcgRVqOtGwfEPT)
+
 3. Игра "НОД"
 
-$ make brain-gcd
+node bin/brain-gcd.js
 
-Третья игра
+[![asciicast](https://asciinema.org/a/tjwWPlNi1vkXJHhHovlQY476m.svg)](https://asciinema.org/a/tjwWPlNi1vkXJHhHovlQY476m)
+
 4. Игра "Прогрессия"
 
-$ make brain-progression
+node bin/brain-progression.js
 
+[![asciicast](https://asciinema.org/a/JQOMYUZ753MQNc718zd6yuCJX.svg)](https://asciinema.org/a/JQOMYUZ753MQNc718zd6yuCJX)
 
 5. Игра "Простое ли число?"
 
-$ make brain-prime
+node bin/brain-prime.js
 
-Пятая игра
+[![asciicast](https://asciinema.org/a/t8RNxruSmavN7FjrzNGaSU747.gif)](https://asciinema.org/a/t8RNxruSmavN7FjrzNGaSU747)
