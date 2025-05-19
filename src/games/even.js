@@ -1,5 +1,7 @@
 const isEven = num => num % 2 === 0;
 
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
 const generateRound = () => {
   const question = getRandomNumber(1, 100);
   const answer = isEven(question) ? 'yes' : 'no';
