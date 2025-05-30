@@ -17,8 +17,8 @@ const runGame = (check, game) => {
 
     if (userAnswer === correctAnswer) {
       console.log('Correct!')
-      correctAnswersCount += 1} 
-    else {
+      correctAnswersCount += 1
+    } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
       return
@@ -29,3 +29,4 @@ const runGame = (check, game) => {
 }
 
 export default runGame
+
