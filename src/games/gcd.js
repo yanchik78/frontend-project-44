@@ -15,4 +15,4 @@ const generateRound = () => {
 
 export const description = 'Find the greatest common divisor of given numbers.'
 
-export default generateRound;
+export default generateRound
